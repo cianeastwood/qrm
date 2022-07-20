@@ -1,5 +1,18 @@
-# Code repository for Quantile Risk Minimization
+# Probable Domain Generalization via Quantile Risk Minimization
 Code for reproducing the results in our paper [Probable Domain Generalization via Quantile Risk Minimization](https://github.com/cianeastwood/qrm).
+
+<p align="center">
+  <img src="https://github.com/cianeastwood/qrm/blob/master/quantile_risk.png?raw=true" width="300" alt="Quantile risk" />
+</p>
+
+## Synthetic data
+... coming soon!!
+
+## Real data
+... coming soon!!
+
+## BibTex
+
 ```
 @article{eastwood2022probable,
     title={Probable Domain Generalization via Quantile Risk Minimization},
@@ -8,5 +21,3 @@ Code for reproducing the results in our paper [Probable Domain Generalization vi
     year={2022}
 }
 ```
-
-... coming soon!!
