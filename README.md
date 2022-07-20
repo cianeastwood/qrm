@@ -2,7 +2,7 @@
 Code for reproducing the results in our paper [Probable Domain Generalization via Quantile Risk Minimization](https://github.com/cianeastwood/qrm).
 
 <p align="center">
-  <img src="https://github.com/cianeastwood/qrm/blob/master/quantile_risk.png?raw=true" width="300" alt="Quantile risk" />
+  <img src="https://github.com/cianeastwood/qrm/blob/main/quantile_risk.png?raw=true" width="300" alt="Quantile risk" />
 </p>
 
 ## Synthetic data
