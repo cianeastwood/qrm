@@ -1,5 +1,5 @@
 # Probable Domain Generalization via Quantile Risk Minimization
-Code for reproducing the results in our paper [Probable Domain Generalization via Quantile Risk Minimization](https://github.com/cianeastwood/qrm).
+Code for reproducing the results in our paper [Probable Domain Generalization via Quantile Risk Minimization](https://arxiv.org/abs/2207.09944).
 
 <p align="center">
   <img src="https://github.com/cianeastwood/qrm/blob/main/quantile_risk.png?raw=true" width="300" alt="Quantile risk" />
