@@ -21,7 +21,7 @@ DomainBed/results/*.txt
 *.pkl
 
 # PyCharm
-*.idea/
+*.idea/*
 *.DS_Store
 *.swp*
 
