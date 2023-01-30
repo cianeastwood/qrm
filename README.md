@@ -18,7 +18,7 @@ Each sub-repo contains its own README with instructions on
 how to get set up and reproduce experiments. We chose to keep these repos separate in order to allow users to:
 - Make use of existing benchmark code, in particular, that of 
 [WILDS](https://github.com/p-lambda/wilds/) and [DomainBed](https://github.com/facebookresearch/DomainBed).
-- Only concern themselves with sub-repos of interest and their installation requires.
+- Only concern themselves with sub-repos of interest and their installation requirements.
 
 
 ## Contact
