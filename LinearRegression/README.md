@@ -47,5 +47,5 @@ python collect_results.py /my/output/dir/reproduce/quantiles --plot
 
 ## Acknowledgements
 
-This repo structure was based on the structure of
+This repo structure was based on that of
 [Linear unit-tests for invariance discovery](https://github.com/facebookresearch/InvarianceUnitTests).
