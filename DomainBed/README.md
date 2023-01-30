@@ -1,6 +1,6 @@
 # Overview
 EQRM will soon be added to the [official DomainBed repo](https://github.com/facebookresearch/DomainBed). In the meantime, this sub-repo can be used to reproduce
-the results in our paper. In particular, after adding your own paths and launcher, and setting up DomainBed using the 
+the DomainBed results in our paper. In particular, after adding your own paths and launcher, and setting up DomainBed using the 
 instructions below, the following commands will reproduce the EQRM results reported in our paper.
 
 #### Launch sweep 
