@@ -3,7 +3,7 @@ This sub-repo contains code for running experiments on the ColoredMNIST dataset 
 [Arjovsky et al., 2019](https://arxiv.org/abs/1907.02893).
 
 <p align="center">
-  <img src="https://github.com/cianeastwood/prob_gen/blob/clean/assets/overview_cmnist.png?raw=true" width="300" alt="CMNIST images" />
+  <img src="https://github.com/cianeastwood/qrm/blob/main/assets/overview_cmnist.png?raw=true" width="300" alt="CMNIST images" />
 </p>
 
 ## Installation
