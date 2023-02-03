@@ -2,7 +2,7 @@
 Code for reproducing the results in our NeurIPS 2022 paper [Probable Domain Generalization via Quantile Risk Minimization](https://arxiv.org/abs/2207.09944).
 
 <p align="center">
-  <img src="https://github.com/cianeastwood/prob_gen/blob/clean/assets/overview_qrm.png?raw=true" width="500" alt="QRM" />
+  <img src="https://github.com/cianeastwood/qrm/blob/clean/assets/overview_qrm.png?raw=true" width="500" alt="QRM" />
 </p>
 
 
