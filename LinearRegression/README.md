@@ -2,7 +2,7 @@
 This sub-repo contains code for running experiments on the linear regression dataset of our paper:
 
 <p align="center">
-  <img src="https://github.com/cianeastwood/prob_gen/blob/clean/assets/overview_lr.png?raw=true" width="700" alt="LR dataset" />
+  <img src="https://github.com/cianeastwood/qrm/blob/main/assets/overview_lr.png?raw=true" width="700" alt="LR dataset" />
 </p>
 
 ## Installation
