@@ -43,7 +43,7 @@ python collect_results.py /my/output/dir/reproduce/quantiles
 ```
 
 ### 4. Plot results
-To plot the results, and reproduce Figures 3a--3d of our paper, some dependencies may need to be installed to render latex text with matplotlib. We hope to remove these dependecies in the future. With Mac OS, it is usually sufficient to uncomment the `mpl.use('macOsX')` line at the top of `plot_results.py`. With Ubuntu, following commands should be sufficient:
+To plot the results, and reproduce Figures 3a--3d of our paper, some dependencies may need to be installed to render latex text with matplotlib. We hope to remove these dependecies in the future. With Mac OS, it is usually sufficient to uncomment the `mpl.use('macOsX')` line at the top of `plotting.py`. With Ubuntu, following commands should be sufficient:
 ```bash
 sudo apt install cm-super 
 sudo apt install dvipng
