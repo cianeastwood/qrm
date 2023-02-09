@@ -8,7 +8,7 @@ This sub-repo contains code for running experiments on the linear regression dat
 ## Installation
 
 ```bash
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Single run
@@ -25,10 +25,13 @@ python job_scripts/gen_exps.py --output_dir /my/output/dir
 ```
 
 ### 2. Run the commands
-Run the commands in the text file. We did so by submitting them to a slurm cluster using 
-[submitit](https://github.com/facebookincubator/submitit). If you are also using a cluster with slurm then 
-`job_scripts/submit_jobs.py` and the command below may provide a useful starting point (after installing submitit):
-```sh
+Run the commands in the text file. To do so on a local machine (warning: may take a while!), use:
+```bash
+source ./job_scripts/reproduce.txt
+```
+
+To do so via a slurm cluster, the script `job_scripts/submit_jobs.py` may provide a useful starting point, editing where necessary with the details of your cluster. After installing [submitit](https://github.com/facebookincubator/submitit), the following command will then run the commands/jobs in the text file:
+```bash
 python job_scripts/submit_jobs.py -c job_scripts/reproduce.txt
 ```
 
@@ -40,7 +43,13 @@ python collect_results.py /my/output/dir/reproduce/quantiles
 ```
 
 ### 4. Plot results
-To plot the results and reproduce Figures 3a--3d of our paper, add the `--plot` flag which will save these to figs/.
+To plot the results, and reproduce Figures 3a--3d of our paper, some dependencies may need to be installed to render latex text with matplotlib. We hope to remove these dependecies in the future. With Mac OS, it is usually sufficient to uncomment the `mpl.use('macOsX')` line at the top of `plot_results.py`. With Ubuntu, following commands should be sufficient:
+```bash
+sudo apt install cm-super 
+sudo apt install dvipng
+```
+
+With these dependencies installed, the results can be plotted using the following command, saving figures to `figs/` by default:
 ```bash
 python collect_results.py /my/output/dir/reproduce/quantiles --plot
 ```
