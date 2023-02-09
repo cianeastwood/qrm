@@ -1,12 +1,14 @@
 """ Functions for plotting. """
 
 import os
+import matplotlib as mpl
 import matplotlib.pyplot as plt
 import numpy as np
 import torch
 import utils
 from tueplots import bundles
 
+# mpl.use('macOsX')
 plt.rcParams.update(bundles.neurips2022())
 plt.rc('text', usetex=True)
 plt.rc('text.latex', preamble=r'\usepackage{times,amsmath,amsfonts}')
