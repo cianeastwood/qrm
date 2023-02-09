@@ -5,8 +5,8 @@ This sub-repo contains code for running experiments on the linear regression dat
   <img src="https://github.com/cianeastwood/qrm/blob/main/assets/overview_lr.png?raw=true" width="700" alt="LR dataset" />
 </p>
 
-## Installation
-
+## Requirements
+We used Python 3.10. The requirements can then be installed using:
 ```bash
 pip install -r requirements.txt
 ```
