@@ -25,9 +25,12 @@ python -m job_scripts.gen_exps --exp_name reproduce --data_dir /my/data/dir --ou
 ```
 
 ### 2. Run the commands
-Run the commands in the text file. We did so by submitting them to a slurm cluster using 
-[submitit](https://github.com/facebookincubator/submitit). If you are also using a cluster with slurm then 
-`job_scripts/submit_jobs.py` and the command below may provide a useful starting point (after installing submitit):
+Run the commands in the text file. To do so on a local machine (warning: may take a while!), use:
+```sh
+source ./job_scripts/reproduce.txt
+```
+
+To do so via a slurm cluster, the script `job_scripts/submit_jobs.py` may provide a useful starting point, editing where necessary with the details of your cluster. After installing [submitit](https://github.com/facebookincubator/submitit), the following command will then run the commands in the text file:
 ```sh
 python -m job_scripts.submit_jobs -c job_scripts/reproduce.txt
 ```
