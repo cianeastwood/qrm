@@ -5,6 +5,7 @@ from models.initializer import initialize_model
 from utils import move_to
 from wilds.common.utils import split_into_groups
 
+EPS = 1e-6
 
 class QRMBase(SingleModelAlgorithm):
 
@@ -105,7 +106,7 @@ class GaussianKernel(Kernel):
 def estimate_bandwidth(x, method="silverman"):
     x_, _ = torch.sort(x)
     n = len(x_)
-    sample_std = torch.std(x_, unbiased=True)
+    sample_std = torch.std(x_, unbiased=True) + EPS
 
     if method == 'silverman':
         # https://en.wikipedia.org/wiki/Kernel_density_estimation#A_rule-of-thumb_bandwidth_estimator
@@ -163,8 +164,6 @@ class KernelDensityEstimator(torch.nn.Module):
 ############################################################
 # PyTorch implementation of 1D distributions.
 ############################################################
-
-EPS = 1e-16
 
 
 class Distribution1D:
